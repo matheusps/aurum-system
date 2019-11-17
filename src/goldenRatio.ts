@@ -1,13 +1,4 @@
-function* goldenGenerator(base: number, limit: number) {
-  let [prev, curr] = [0, base]
-  do {
-    ;[prev, curr] = [curr, prev + curr]
-    limit = limit - 1
-    yield curr
-  } while (limit > 0)
-}
-
-export default function goldenRatio(config = defaultConfig): GoldenValue {
+export default function goldenRatio(config: RatioConfig): GoldenValue {
   const { range, base, unit } = config
 
   let goldenArr = [0]
@@ -26,10 +17,13 @@ export default function goldenRatio(config = defaultConfig): GoldenValue {
   return goldenValue
 }
 
-export const defaultConfig: RatioConfig = {
-  range: 8,
-  base: 0.125,
-  unit: 'rem'
+function* goldenGenerator(base: number, limit: number) {
+  let [prev, curr] = [0, base]
+  do {
+    ;[prev, curr] = [curr, prev + curr]
+    limit = limit - 1
+    yield curr
+  } while (limit > 0)
 }
 
 type RatioConfig = {

@@ -2,7 +2,11 @@ import goldenRatio from '../src/goldenRatio'
 
 describe('Golden Ratio Fn', () => {
   it('should have the correct range', () => {
-    const result = goldenRatio()
+    const result = goldenRatio({
+      range: 8,
+      base: 0.125,
+      unit: 'rem'
+    })
     const keys = Object.keys(result)
     expect(keys.length).toEqual(9)
   })

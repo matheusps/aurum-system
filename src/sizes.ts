@@ -3,7 +3,7 @@ import goldenRatio from './goldenRatio'
 
 const draftSizes: DraftToken = {
   values: {
-    ...goldenRatio({ range: 8, base: 0.5, unit: 'rem' }),
+    ...goldenRatio({ range: 13, base: 0.5, unit: 'rem' }),
     25: '25%',
     50: '50%',
     75: '75%',

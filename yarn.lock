@@ -1002,11 +1002,6 @@ clone-response@^1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
-clssx@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/clssx/-/clssx-1.2.0.tgz#5384552e942fe5c90e848b211431e52faf2efd01"
-  integrity sha512-RUolpJxdNsQuU2PmMaPwp0gp4K+p1Y3/wSsTHw1LxrBdWOOUerK5rnB9lu8wsj0F0L5guSp6AiUuYshQzUbFtA==
-
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"

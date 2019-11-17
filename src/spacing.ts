@@ -2,7 +2,11 @@ import { DraftToken, createTokens } from 'styled-tokens'
 import goldenRatio from './goldenRatio'
 
 const draftSpacing: DraftToken = {
-  values: goldenRatio(),
+  values: goldenRatio({
+    range: 13,
+    base: 0.125,
+    unit: 'rem'
+  }),
   propName: {
     margin: 'ma',
     marginTop: 'mt',

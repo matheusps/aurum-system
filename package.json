@@ -5,7 +5,7 @@
   "keywords": [],
   "main": "dist/aurum.umd.js",
   "module": "dist/aurum.es5.js",
-  "typings": "dist/types/aurum.d.ts",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
@@ -87,7 +87,5 @@
     "tslint-config-standard": "^9.0.0",
     "typescript": "^3.0.3"
   },
-  "dependencies": {
-    "clssx": "^1.2.0"
-  }
+  "dependencies": {}
 }
