@@ -20,4 +20,15 @@ const draftSizes: DraftToken = {
   }
 }
 
+type size = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 25 | 50 | 75 | 'full' | 'fullView'
+
+export type SizeSystem = {
+  w?: size
+  h?: size
+  maw?: size
+  miw?: size
+  mah?: size
+  mih?: size
+}
+
 export default createTokens(draftSizes)
