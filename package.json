@@ -1,6 +1,6 @@
 {
   "name": "aurum-system",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Token system based on the golden ratio",
   "keywords": [],
   "main": "dist/aurum.umd.js",
