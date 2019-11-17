@@ -1,5 +1,5 @@
-import fontSystem from './fontSize'
+import fontSystem, { FontSystem } from './fontSize'
 import spacingSystem from './spacing'
 import sizeSystem from './spacing'
 
-export { fontSystem, spacingSystem, sizeSystem }
+export { fontSystem, FontSystem, spacingSystem, sizeSystem }

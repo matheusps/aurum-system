@@ -12,4 +12,8 @@ const draftFs: DraftToken = {
   }
 }
 
+export type FontSystem = {
+  fs?: keyof typeof draftFs.values
+}
+
 export default createTokens(draftFs)
