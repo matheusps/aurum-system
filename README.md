@@ -2,7 +2,7 @@
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-Tokens that use the Golden ratio to grant consistent ui
+Tokens that use the Golden ratio to grant consistent ui. This lib is based on `styled-tokens`, [check it out 🚀](https://github.com/matheusps/styled-tokens).
 
 ### Installing from npm
 
