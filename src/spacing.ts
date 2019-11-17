@@ -1,6 +1,7 @@
+import { DraftToken, createTokens } from 'styled-tokens'
 import goldenRatio from './goldenRatio'
 
-const draftSpacing = {
+const draftSpacing: DraftToken = {
   values: goldenRatio(),
   propName: {
     margin: 'ma',
@@ -15,3 +16,5 @@ const draftSpacing = {
     paddingLeft: 'pl'
   }
 }
+
+export default createTokens(draftSpacing)
