@@ -79,6 +79,7 @@
     "rollup-plugin-sourcemaps": "^0.4.2",
     "rollup-plugin-typescript2": "^0.24.3",
     "shelljs": "^0.8.3",
+    "styled-tokens": "^0.0.4",
     "ts-jest": "^24.1.0",
     "ts-node": "^8.4.1",
     "tslint": "^5.11.0",
@@ -86,5 +87,7 @@
     "tslint-config-standard": "^9.0.0",
     "typescript": "^3.0.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "clssx": "^1.2.0"
+  }
 }
